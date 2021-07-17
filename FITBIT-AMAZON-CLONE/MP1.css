@@ -1,0 +1,169 @@
+header{
+  background-color: rgb(16, 59, 107);
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  font-size: 48px;
+}
+
+img{
+  height: 60px;
+}
+
+
+section#about{
+  position: absolute;
+  top: 250px;
+  right: 250px;
+  width: 600px;
+}
+
+
+section#watch{
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  size: 10px;
+}
+
+div#purple{
+  position:absolute;
+  top: 200px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+img#rd{
+  position: absolute;
+  display: block;
+  top: 200px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+
+}
+
+img#blck{
+  position: absolute;
+  display: none;
+  top: 200px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+
+}
+
+img#blu{
+  position: absolute;
+  top: 200px;
+  display: none;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+
+}
+
+img#pur{
+  position: absolute;
+  top: 200px;
+  display: none;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+
+}
+
+img#crem{
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'Source Sans Pro',sans-serif;
+src:url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+}
+
+
+h1#name{
+  font-weight: bold;
+  font-family: 'Source Sans Pro',sans-serif;
+  /*src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');*/
+  font-size: 40px;
+}
+
+
+section#timedisplay{
+  position: absolute;
+  top: 460px;
+  left: 310px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  width: 100px;
+  height: 10px;
+  font-size: 20px;
+}
+
+p#lorem{
+  color: darkgrey;
+
+  width: 550px;
+  height: 200px;
+}
+
+section#select{
+  position: absolute;
+  top: 450px;
+  left: 500px;
+  width: 900px;
+  height: 150px;
+}
+div#purple{
+  position: absolute;
+  top: 67px;
+  left: 330px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: purple;
+}
+div#red{
+  position: inherit;
+
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
+
+div#blue{
+  position: inherit;
+
+  left: 110px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+}
+
+
+
+div#black{
+  position: inherit;
+  left: 220px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+}

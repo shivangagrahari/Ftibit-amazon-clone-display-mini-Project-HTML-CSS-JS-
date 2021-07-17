@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="MP1.css">
+    <img id="rd" src="red.png" alt="">
+    <img id="blck" src="5.png">
+    <img id="blu" src="1.png" alt="">
+    <img id="pur" src="3.png" alt="">
+    <meta charset="utf-8">
+    <title>Show watch Faces</title>
+  </head>
+  <body>
+
+    <header>
+      <!-- Amazon -->
+      <img src="index.png">
+    </header>
+
+
+    <section id="about">
+      <h1 id="name"> FitBit 19 - The Smartest Watch</h1>
+      <p id="lorem">   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </section>
+
+
+
+<h1> This is a test text </h1>
+<section id="timedisplay">
+
+<b id="dis"> Display </b>
+
+<center>
+<script id="date">
+
+setInterval(show, 1000)
+
+
+function show() {
+var da = new Date()
+
+var h = da.getHours();
+var m = da.getMinutes();
+var s = da.getSeconds();
+
+
+wt = h + ':' + m + ':' +s
+
+
+document.getElementById('dis').innerHTML = wt;
+}
+show();
+
+
+
+</script>
+</center>
+
+</section>
+
+
+
+
+<section id="select">
+
+<h1> Select Color </h1>
+
+<div id="red"></div>
+<div id="blue"></div>
+<div id="purple"></div>
+<div id="black"></div>
+
+
+</section>
+
+
+<script type="text/javascript" src="MP1.js">
+
+</script>
+
+  </body>
+</html>
